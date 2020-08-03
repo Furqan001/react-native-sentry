@@ -1,0 +1,10 @@
+{
+  "extends": "./tsconfig.build.json",
+  "include": ["src/js/*.ts", "test/**/*.ts"],
+  "exclude": ["dist"],
+  "compilerOptions": {
+    "rootDir": ".",
+    "jsx": "react-native",
+    "types": ["jest"]
+  }
+}
